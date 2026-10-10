@@ -1,0 +1,11 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<script src="${pageContext.request.contextPath}/js/app.js" defer></script>
+<footer class="footer">
+    <div class="wrap">
+        <span>QuizDesk &middot; Java-based online quiz platform</span>
+        <span>Jakarta Servlets &middot; JSP &middot; JDBC &middot; MySQL</span>
+    </div>
+</footer>
+</body>
+</html>

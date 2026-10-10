@@ -1,0 +1,15 @@
+# =====================================================================
+#  QuizDesk - database configuration TEMPLATE
+# =====================================================================
+#  1. Copy this file to:  src/main/resources/db.properties
+#  2. Replace YOUR_PASSWORD with your local MySQL password.
+#  3. Do NOT commit the real db.properties file (it is in .gitignore).
+# =====================================================================
+
+db.url=jdbc:mysql://localhost:3306/quiz_platform?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8
+db.username=root
+db.password=YOUR_PASSWORD
+
+# JDBC connection pool (small, hand-rolled pool - see util/DBConnection.java)
+db.pool.size=5
+db.pool.timeout.ms=10000

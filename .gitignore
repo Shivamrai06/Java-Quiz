@@ -1,0 +1,33 @@
+# ===== Build output =====
+target/
+build/
+out/
+*.war
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+nbproject/private/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Secrets / local configuration (NEVER commit real credentials) =====
+src/main/resources/db.properties
+*.local.properties
+.env
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Local Tomcat deployment =====
+*.jar
+!lib/*.jar
